@@ -78,3 +78,31 @@
 // for (let key of arr) {
 //    console.log(key);
 //}
+
+
+// to String 
+// 1.   console.log(typeof(String(5)));   5=string
+// 2.   console.log("ww" + 5);   ww5=string
+
+
+// to Number
+// 1.   console.log(typeof(Number("5")));   "5"=number
+// 2.   console.log(typeof(+"5"));   "5"=number
+// 3.   console.log(typeof(parseInt("15px", 10)));
+
+
+//Boolean
+//      0, '', nul, undefined, NaN      -FALSE-
+
+// 1.   let switcher = null;
+//      if(switcher) {
+//          console.log("Working..")
+//      }
+
+//      let switcher = 1;
+//      if(switcher) {
+//          console.log("Working..")
+//      }
+// 2.   console.log(typeof(Boolean(5)));  5=boolean
+// 3.   console.log(typeof(!!"5"));       "5"=boolean
+
