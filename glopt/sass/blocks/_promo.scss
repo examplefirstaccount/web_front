@@ -1,0 +1,56 @@
+.promo {
+    min-height: 680px;
+    padding: 23px 0 82px 0;
+    background: url(../img/main_bg.jpg) center (center/cover) no-repeat;
+    &__slogan {
+        margin-top: 9px;
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__header {
+        margin: 0;
+        margin-top: 26px;
+        color: $main-color;
+        font-size: 72px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__subheader {
+        position: relative;
+        margin: 0;
+        margin-top: 9px;
+        text-align: center;
+        color: #fff;
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &__hr {
+        margin-top: 38px;
+        text-align: center;
+    }
+    &__items {
+        margin-top: 27px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__icon {
+        display: block;
+        margin: 0 auto;
+    }
+    &__descr {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+        margin-top: 16px;
+        &:nth-child(2) {
+            margin-top: 13px;
+        }
+    }
+}

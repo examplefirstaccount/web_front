@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+        display: block;
+        max-width: 100%;
+    }
+    &__quest {
+        margin-left: 66px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__phone {
+        text-decoration: none;
+        color: #fff;
+        font-size: 19px;
+        font-weight: 700;
+    }
+}

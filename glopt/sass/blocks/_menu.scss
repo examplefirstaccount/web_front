@@ -1,0 +1,25 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    &__link {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__item {
+        border-right: 2px dotted grey;
+        padding:0 14px 0 14px;
+		&:last-child {
+            padding: 0 0px 0 14px;
+            border-right: none;
+        }	
+    }
+}   
+

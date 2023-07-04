@@ -1,0 +1,27 @@
+.consultation {
+    &__subtitle {
+        margin-top: 56px;
+        color: #3a3a3a;
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+    }
+    &__round {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #e93b3b;
+        border-radius: 100%;
+    }
+    &__img {
+        padding: 17px 20px 24px 23px;
+    }
+    &__wraps-block {
+        position: relative;
+    }
+    &__wrap {
+        position: absolute;
+        top: -51px;
+    }
+}

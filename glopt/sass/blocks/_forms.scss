@@ -1,0 +1,20 @@
+.form {
+    position: relative;
+    margin-top: 17px;
+    display: flex;
+    &__wrap {
+        margin: 0 auto;
+    }
+    input {
+        width: 268px;
+        height: 45px;
+        background-color: #ffffff;
+        border-radius: 45px;
+        border: solid 1px #898989;
+        padding-left: 28px;
+        margin-right: 5px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
